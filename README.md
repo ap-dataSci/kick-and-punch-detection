@@ -47,3 +47,8 @@ Let's compare the results:
 In conclusion, we can say that we got better accuracy when using 2 classes and YoloV8 in the overal.
 
 Link to page : https://jorgeluisgalarraga.github.io/kick-and-punch-detection/
+
+
+Note: The command used to convert the Notebooks to HTML files is below.
+
+jupyter-nbconvert ./Report.ipynb --output-dir ./html_files --TagRemovePreprocessor.enabled=True --TagRemovePreprocessor.remove_cell_tags='remove' --TagRemovePreprocessor.remove_input_tags='remove_input' --TagRemovePreprocessor.remove_all_outputs_tags='remove_output' --to html
